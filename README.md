@@ -1,0 +1,92 @@
+# 📚 Library Management System (SQL Project)
+
+## 🧾 Overview
+This SQL project implements a **Library Management System** to store and manage information about books, employees, branches, and customers. It tracks which books are available, issued, and returned.
+
+---
+
+## 🏗️ Database Schema
+**Database Name:** `library`
+
+### Tables:
+1. **Branch**
+   - `Branch_no` (PK)
+   - `Manager_Id`
+   - `Branch_address`
+   - `Contact_no`
+
+2. **Employee**
+   - `Emp_Id` (PK)
+   - `Emp_name`
+   - `Position`
+   - `Salary`
+   - `Branch_no` (FK → Branch.Branch_no)
+
+3. **Books**
+   - `ISBN` (PK)
+   - `Book_title`
+   - `Category`
+   - `Rental_Price`
+   - `Status`
+   - `Author`
+   - `Publisher`
+
+4. **Customer**
+   - `Customer_Id` (PK)
+   - `Customer_name`
+   - `Customer_address`
+   - `Reg_date`
+
+5. **IssueStatus**
+   - `Issue_Id` (PK)
+   - `Issued_cust` (FK → Customer.Customer_Id)
+   - `Issued_book_name`
+   - `Issue_date`
+   - `Isbn_book` (FK → Books.ISBN)
+
+6. **ReturnStatus**
+   - `Return_Id` (PK)
+   - `Return_cust`
+   - `Return_book_name`
+   - `Return_date`
+   - `Isbn_book2` (FK → Books.ISBN)
+
+---
+
+## 💻 SQL Queries Implemented
+
+| No | Description |
+|----|--------------|
+| 1 | Retrieve available book details |
+| 2 | List employees by salary (descending) |
+| 3 | List books and customers who issued them |
+| 4 | Count books by category |
+| 5 | Employees earning above ₹50,000 |
+| 6 | Customers registered before 2022 and not issued books |
+| 7 | Count employees per branch |
+| 8 | Customers who issued books in June 2023 |
+| 9 | Books containing the word "history" |
+| 10 | Branches with more than 5 employees |
+| 11 | Managers and their branch addresses |
+| 12 | Customers who issued books priced above ₹25 |
+
+---
+
+## 🖼️ Screenshots
+
+📸 Add your screenshots of query outputs here:
+
+![Query 1 Output](screenshots/1.png)
+![Query 2 Output](screenshots/2.png)
+![Query 3 Output](screenshots/3.png)
+![Query 4 Output](screenshots/4.png)
+![Query 5 Output](screenshots/5.png)
+![Query 6 Output](screenshots/6.png)
+![Query 7 Output](screenshots/7.png)
+![Query 8 Output](screenshots/8.png)
+![Query 9 Output](screenshots/9.png)
+![Query 10 Output](screenshots/10.png)
+![Query 11 Output](screenshots/11.png)
+
+---
+
