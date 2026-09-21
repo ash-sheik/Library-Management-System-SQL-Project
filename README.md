@@ -72,21 +72,3 @@ This SQL project implements a **Library Management System** to store and manage 
 
 ---
 
-## 🖼️ Screenshots
-
-📸 Add your screenshots of query outputs here:
-
-![Query 1 Output](screenshots/1.png)
-![Query 2 Output](screenshots/2.png)
-![Query 3 Output](screenshots/3.png)
-![Query 4 Output](screenshots/4.png)
-![Query 5 Output](screenshots/5.png)
-![Query 6 Output](screenshots/6.png)
-![Query 7 Output](screenshots/7.png)
-![Query 8 Output](screenshots/8.png)
-![Query 9 Output](screenshots/9.png)
-![Query 10 Output](screenshots/10.png)
-![Query 11 Output](screenshots/11.png)
-
----
-
