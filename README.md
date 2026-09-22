@@ -71,6 +71,17 @@ This SQL project implements a **Library Management System** to store and manage 
 | 12 | Customers who issued books priced above ₹25 |
 
 ---
+
+## 🚀 How to Run the Project
+
+1. Install MySQL Server and MySQL Workbench.
+2. Download or clone this repository.
+3. Open `Library_Management_System_SQL.sql` in MySQL Workbench.
+4. Execute the script to create the database, tables and sample records.
+5. Run the included queries to explore the analysis.
+
+---
+
 ## 👩‍💻 Author
 
 **Ashiba B**  
