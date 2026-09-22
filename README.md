@@ -71,4 +71,9 @@ This SQL project implements a **Library Management System** to store and manage 
 | 12 | Customers who issued books priced above ₹25 |
 
 ---
+## 👩‍💻 Author
 
+**Ashiba B**  
+Data Analyst | SQL | Power BI | Excel | Python  
+
+[LinkedIn](https://www.linkedin.com/in/ashiba-data-analyst) | [Email](mailto:ashibab23@gmail.com)
